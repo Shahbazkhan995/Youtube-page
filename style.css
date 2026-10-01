@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.inp input{
+   width: 600px;
+   height: 10px;
+   padding: 20px 10px;
+    background-image: url(magnifying-glass-solid-full.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    border-color: rgb(192, 190, 190);
+    border: 1px solid;
+}
+.inp i{
+    font-size: 30px;
+}
+.nav{
+    display: flex;
+    /* border: solid; */
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+.nav img{
+    width: 180px;
+}
+.inp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.icons img{
+    width: 20px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-right: 10px;
+}
+.logo{
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    gap: 10px;
+    margin-left: 10px;
+}
+.logo i{
+    font-size: 25px;
+}
+.icons i{
+    font-size: 25px;
+}
+.sidebar{
+    /* border: sol///////id; */
+    width: 20%;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.sidebar ul li{
+ display: block;
+    padding: 20px;
+
+}
+.sidebar ul li i{
+    margin-right: 20px;
+    font-size: 20px;
+}
+.sidebar ul li a{
+    text-decoration: none;
+
+    color: black;
+}
+.sidebar ul li:hover {
+    background-color: rgb(228, 227, 227);
+}
+.sidebar ul li:hover i{
+    color: rgb(245, 0, 0);
+}
+.sidebar h3{
+    margin: 20px;
+    color: gray;
+    font-weight: lighter;
+}
+.main{
+    display: flex;
+}
+.videos{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* border: solid; */
+    width: 80%;
+    margin-top: 10px;
+   
+
+}
+.videos iframe{
+    margin: 20px;
+    
+}
+.videos ul{
+    display: flex;
+    position: absolute;
+    top: 60px;
+    gap: 20px;
+    text-align: center;
+}
+.videos ul li{
+    list-style: none;
+}
+.videos ul li button{
+    padding: 7px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+
+}
